@@ -1,4 +1,4 @@
-# Basic setup using Terraform with different cloud providers (AWS, GCP, ...) ☁️
+# A basic setup and configuration using terraform and different providers (Docker, AWS, GCP, ...) ☁️
 
 ## License
 
