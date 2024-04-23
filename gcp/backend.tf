@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = var.bucket
-    prefix  = var.prefix
+    bucket  = var.GOOGLE_PROJECT_BUCKET
+    prefix  = var.GOOGLE_PROJECT_BUCKET_PREFIX
   }
 }
