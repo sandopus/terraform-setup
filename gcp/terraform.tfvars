@@ -1,7 +1,3 @@
 INFISICAL_HOST = "https://app.infisical.com"
-
-GOOGLE_PROJECT_ID = data.infisical_secrets.terraform-setup-secrets.secrets["GOOGLE_PROJECT_ID"]
-GOOGLE_PROJECT_BUCKET = data.infisical_secrets.terraform-setup-secrets.secrets["GOOGLE_PROJECT_BUCKET"]
+INFISICAL_SECRET_TOKEN = "st.b816c898-80b4-4401-b40f-945452354dc7.296de43a05d049621e49cb7c0ad0e1c3.2e6069a85502d434a3b02c3e2a606ad8"
 GOOGLE_PROJECT_REGION = "us-central1"
-GOOGLE_PROJECT_BUCKET_PREFIX = "/"
-GOOGLE_PROVIDER_VERSION = "5.25.0"
