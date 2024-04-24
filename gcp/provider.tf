@@ -4,6 +4,6 @@ provider "infisical" {
 }
 
 provider "google" {
-  project = data.infisical_secrets.terraform-setup-secrets.secrets["GOOGLE_PROJECT_ID"]
+  project = data.infisical_secrets.terraform_setup_secrets.secrets["GOOGLE_PROJECT_ID"]
   region  = var.GOOGLE_PROJECT_REGION
 }
