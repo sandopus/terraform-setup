@@ -1,14 +1,19 @@
 variable "INFISICAL_HOST" {
   type = string
-  description = "The infisical host that provide the secrets."
+  description = "The infisical host url."
 }
 
-variable "INFISICAL_SECRET_TOKEN" {
+variable "INFISICAL_SERVICE_TOKEN" {
   type = string
-  description = "The infisical secret token."
+  description = "The infisical service token."
+}
+
+variable "GOOGLE_PROJECT_CREDENTIALS" {
+  type = string
+  description = "The google cloud project service account credentials."
 }
 
 variable "GOOGLE_PROJECT_REGION" {
   type = string
-  description = "The region where is located the vm."
+  description = "The google cloud project region."
 }
