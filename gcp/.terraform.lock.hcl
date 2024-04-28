@@ -1,25 +1,27 @@
-# This file is maintained automatically by "tofu init".
+# This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
 
-provider "registry.opentofu.org/hashicorp/google" {
+provider "registry.terraform.io/hashicorp/google" {
   version     = "5.25.0"
   constraints = "5.25.0"
   hashes = [
-    "h1:3bZe1PEXJzoiVMv0dtf7NGKW/aofy/pIh/BjeYKGyQQ=",
-    "zh:67d602cfd7e9e8de629a9d84bc7f7e39a214096132a3fe8814714814cc5ef874",
-    "zh:68ec336705bbc573937a49acd51152c42028ae3c790500b70e18723fc45f6dca",
-    "zh:7444c8e65aaf916dd11d0948e194092796c98f4d20e3232da850b60ddb404deb",
-    "zh:87320f366008c27c8b4f271e9a1c0ca68100db0b9615c92765d0985e005ee036",
-    "zh:8d35b9a707fc84e63e6cfa9bd6ee2a3c0cbbe7ad65bdcbc4b08eb923e2aac5e0",
-    "zh:95ace24bb0373606b81ad15202fb0059690edce04871da49afa6d28670973b87",
-    "zh:9628730d73f0bd64c456d10ae9dbdd80a025e25088d6a1e7ba29e613cb76149b",
-    "zh:c6794c2bd04d0d4492eddfd9e052dfc085f1966c0f7be03dd6db0e0249bcb791",
-    "zh:d5b6a5a0500ce2e8183409bb7341b20cde4e776c461c428cdad22d135ba1faab",
-    "zh:f713a278ad85c90fce024780de3f4c7b3d4b2679d6b9a215b68cec0ce68333e8",
+    "h1:l9oedcgAeLuI96Xkh6YsTGFKi7eJUxkGtKJO8V3VviM=",
+    "zh:0138a0434b86799c1a6a69e159e658071757609e9373e3fc25257a0efe6319b8",
+    "zh:0ebaa939848142064a4f18b5114d8389c2280baf9b92422f4873db64b150ecb9",
+    "zh:107121f58c85a77148eaefbec1bee6c74cfc6df7b3c3767816f0fdfc1a944856",
+    "zh:1fc277bcd2bd28b782f563bb2107d2a592a2ae86261b8c0a724a139c8993b5e2",
+    "zh:47c7aa8323c7530b5c553dfb9dae0870e52f6960f629dd68697b0f30c082a6bc",
+    "zh:588adf7f56732f7ac420c8ac47d22168a4992a307f02d7075fab9698a877c8f9",
+    "zh:7a0516082632a7b4f5ab60ac2ce292a7a57b93c735144bff2b6bb3b9d9fb00bf",
+    "zh:9c383db001ec8a68375ca46355f04fa651d6ad7653119de9430aaf82a758aa3e",
+    "zh:be35b6861196b8b71574e99e20dacaf1a7db9ca26559db997011fc0808f86009",
+    "zh:dbb9b49f9bf9c352e8bdf6ab920b2e1467ee16646422c5d3f7b5339b92d43ca1",
+    "zh:f3ecd9032629da3f774031fe50d4b4c43b90ec8bba171695775d56d15bf1099a",
+    "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
   ]
 }
 
-provider "registry.opentofu.org/infisical/infisical" {
+provider "registry.terraform.io/infisical/infisical" {
   version = "0.4.0"
   hashes = [
     "h1:inkfXFGNt6FursfS/3qtFT44hC8YHNejns8FjhaIXoE=",
