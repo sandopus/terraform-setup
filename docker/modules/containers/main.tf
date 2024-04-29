@@ -1,5 +1,9 @@
+module "images" {
+  source = "../images"
+}
+
 resource "docker_container" "nginx" {
-  image = docker_image.nginx.image_id
+  image = module.images.nginx_image_name
   name  = "nginx"
   ports {
     internal = 80
