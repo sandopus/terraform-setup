@@ -6,3 +6,12 @@ terraform {
     }
   }
 }
+
+module "images" {
+  source = "./modules/images"
+}
+
+module "containers" {
+  source     = "./modules/containers"
+  depends_on = [module.images]
+}

@@ -1,7 +1,12 @@
+module "network" {
+  source = "../network"
+}
+
 resource "google_compute_instance" "default" {
-  name         = "ubuntu"
+  name         = "terraform-setup-debian"
   machine_type = "e2-micro"
   tags         = ["ssh"]
+  zone         = "us-west4-a"
 
   boot_disk {
     initialize_params {
@@ -10,6 +15,6 @@ resource "google_compute_instance" "default" {
   }
 
   network_interface {
-    network = google_compute_network.vpc_network.name
+    network = module.network.google_compute_network_vpc_network_name
   }
 }
